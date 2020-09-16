@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0.5rem 0;
+}
+
+body {
+  background-image: url(./trees.jpg);
+  background-size: cover;
+  background-position: center center;
+  min-height: 100vh;
+  overflow: hidden;
+  /* margin: 0 300px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: "Bitter", sans-serif;
+}
+
+.wrapper {
+  /* max-width: 60vw; */
+}
+
+h1 {
+  font-size: 2.5625rem;
+  text-align: left;
+}
+
+h3 {
+  font-size: 0.8125rem;
+  margin-bottom: 3rem;
+}
+
+.countdown-container {
+  display: flex;
+}
+
+.big-text {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1;
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 10px 15px gray;
+  margin-bottom: 0;
+}
+
+#days {
+  border-top-left-radius: 20%;
+  border-bottom-left-radius: 20%;
+}
+
+#seconds {
+  border-top-right-radius: 20%;
+  border-bottom-right-radius: 20%;
+}
+
+.countdown-el {
+  text-align: center;
+  margin: 0 0.5rem;
+}
+
+.countdown-el:nth-child(1) {
+  margin-left: 0;
+}
+
+.countdown-el span {
+  font-size: 1.3125rem;
+}
+
+#description {
+  max-width: 600px;
+  font-size: 0.625rem;
+  margin-top: 2rem;
+}
